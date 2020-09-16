@@ -16,19 +16,35 @@ class _MyAppState extends State<MyApp> {
   static const _questions = [
     {
       'questionText': 'Which music genre do you like the most?',
-      'answers': ['Soul', 'Funk', 'Rap', 'Classic'],
+      'answers': [
+        {'text': 'Soul', 'score': 4},
+        {'text': 'Funk', 'score': 2},
+        {'text': 'Rap', 'score': 1},
+        {'text': 'Classic', 'score': 3},
+      ],
     },
     {
       'questionText': 'What\'s your favorite color?',
-      'answers': ['Green', 'Yellow', 'Blue', 'Purple'],
+      'answers': [
+        {'text': 'Green', 'score': 3},
+        {'text': 'Yellow', 'score': 2},
+        {'text': 'Blue', 'score': 1},
+        {'text': 'Purple', 'score': 2},
+      ],
     },
     {
       'questionText': 'What\'s your ideal vacation location?',
-      'answers': ['Beach', 'Mountains', 'City', 'Cruise'],
+      'answers': [
+        {'text': 'Beach', 'score': 3},
+        {'text': 'Mountains', 'score': 2},
+        {'text': 'City', 'score': 1},
+        {'text': 'Cruise', 'score': 1},
+      ],
     },
   ];
 
   var _questionIndex = 0;
+  var _totalScore = 0;
 
   @override
   Widget build(BuildContext context) {
@@ -41,13 +57,14 @@ class _MyAppState extends State<MyApp> {
             ? Quiz(
                 questions: _questions,
                 questionIndex: _questionIndex,
-                answerQuestion: () {
+                answerQuestion: (int score) {
+                  _totalScore += score;
                   setState(() {
                     _questionIndex = _questionIndex + 1;
                   });
                 },
               )
-            : Result(),
+            : Result(_totalScore),
       ),
     );
   }
