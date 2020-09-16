@@ -4,7 +4,7 @@ class Answer extends StatelessWidget {
   final Function onPressed;
   final String answerText;
 
-  Answer({this.onPressed, this.answerText});
+  Answer({@required this.onPressed, @required this.answerText});
 
   @override
   Widget build(BuildContext context) {
