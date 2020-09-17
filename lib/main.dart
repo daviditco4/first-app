@@ -7,9 +7,7 @@ void main() => runApp(MyApp());
 
 class MyApp extends StatefulWidget {
   @override
-  State<StatefulWidget> createState() {
-    return _MyAppState();
-  }
+  State<StatefulWidget> createState() => _MyAppState();
 }
 
 class _MyAppState extends State<MyApp> {
@@ -64,7 +62,15 @@ class _MyAppState extends State<MyApp> {
                   });
                 },
               )
-            : Result(_totalScore),
+            : Result(
+                finalScore: _totalScore,
+                resetQuiz: () {
+                  setState(() {
+                    _questionIndex = 0;
+                    _totalScore = 0;
+                  });
+                },
+              ),
       ),
     );
   }
