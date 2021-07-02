@@ -32,9 +32,11 @@ class Result extends StatelessWidget {
               fontWeight: FontWeight.bold,
             ),
           ),
-          FlatButton(
+          TextButton(
             onPressed: resetQuiz,
-            textColor: Colors.blue,
+            style: ButtonStyle(
+              foregroundColor: MaterialStateProperty.all(Colors.blue),
+            ),
             child: Text('Restart'),
           ),
         ],
