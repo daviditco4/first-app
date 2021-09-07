@@ -47,6 +47,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: 'First App',
       home: Scaffold(
         appBar: AppBar(
           title: Text('My First App'),
