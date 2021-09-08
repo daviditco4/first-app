@@ -33,8 +33,8 @@ You'll need:
 Screenshots:
 
 <p float="left">
-  <img alt="App Screenshot 1" src="/dev_assets/images/app_screenshot_1.png" width="100" />
-  <img alt="App Screenshot 2" src="/dev_assets/images/app_screenshot_2.png" width="100" />
+  <img alt="App Screenshot 1" src="/dev_assets/images/app_screenshot_1.png" width="250" />
+  <img alt="App Screenshot 2" src="/dev_assets/images/app_screenshot_2.png" width="250" />
 </p>
 
 ## Built with
