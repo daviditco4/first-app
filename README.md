@@ -32,7 +32,10 @@ You'll need:
 
 Screenshots:
 
-![App Screenshot 1](/dev_assets/images/app_screenshot_1.png) ![App Screenshot 2](/dev_assets/images/app_screenshot_2.png)
+<p float="left">
+  <img alt="App Screenshot 1" src="/dev_assets/images/app_screenshot_1.png" width="100" />
+  <img alt="App Screenshot 2" src="/dev_assets/images/app_screenshot_2.png" width="100" />
+</p>
 
 ## Built with
 
