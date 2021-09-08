@@ -18,9 +18,11 @@ You'll need:
 ```
 - Android Jelly Bean or later (version 4.1, API level 16).
 
-- Installation of apps from unknown sources permitted (see the "Setting up your device" section at https://www.cnet.com/tech/mobile/how-to-install-apps-outside-of-google-play/).
+- Installation of apps from unknown sources permitted (see the "Setting up your device"
+section at https://www.cnet.com/tech/mobile/how-to-install-apps-outside-of-google-play/).
 
-- The application's binary file (download from the "Releases" section in this project's GitHub repository home page), then begin the installation by opening the file.
+- The application's binary file (download from the "Releases" section in this project's
+GitHub repository home page), then begin the installation by opening the file.
 ```
 
 ### How to use
