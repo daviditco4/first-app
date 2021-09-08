@@ -7,6 +7,40 @@ Links to the course:
 * On Udemy.com - [Flutter & Dart - The Complete Guide](https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/)
 * On Academind.com - [Learn Flutter & Dart to Build iOS & Android Apps](https://pro.academind.com/p/learn-flutter-dart-to-build-ios-android-apps-2020)
 
+## Concepts used during development
+
+* Git
+
+* Dart basics
+  * Object-oriented programming
+  * The language's characteristics (compiled, strongly typed)
+  * Types (String, num, int, double, Object, etc.)
+  * Variables and their built-in type inference
+  * Functions
+  * Classes and how they relate to objects
+  * Lists (or arrays)
+  * Maps
+  * "var", "final", "const"
+  * "if" & "else" statements
+  * "null" value
+  * Getters
+  * Enums
+  * Named constructors
+
+* Flutter app basics
+  * State
+  * Passing callback functions
+
+* Widget basics
+  * Visible (input/output) & invisible (layout/control)
+  * Stateful & stateless
+  * Styling & layouting
+
+* Debugging apps
+  * Using the Emulators
+  * Using the Debugger
+  * Using the DevTools
+
 ## Getting Started
 
 Read this for downloading and installing the app from your mobile device.
