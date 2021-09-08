@@ -10,7 +10,6 @@ Links to the course:
 ## Concepts used during development
 
 * Git
-
 * Dart basics
   * Object-oriented programming
   * The language's characteristics (compiled, strongly typed)
@@ -26,16 +25,13 @@ Links to the course:
   * Getters
   * Enums
   * Named constructors
-
 * Flutter app basics
   * State
   * Passing callback functions
-
 * Widget basics
   * Visible (input/output) & invisible (layout/control)
   * Stateful & stateless
   * Styling & layouting
-
 * Debugging apps
   * Using the Emulators
   * Using the Debugger
