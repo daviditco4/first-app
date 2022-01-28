@@ -9,7 +9,6 @@ Links to the course:
 
 ## Concepts used during development
 
-* Git
 * Dart basics
   * Object-oriented programming
   * The language's characteristics (compiled, strongly typed)
